@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>VDS Pagespeed Demo | Tile</title>
+    <meta name="description" content="Demo of a single VDS tile on a page.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" media="all" href="vds/global_styles.css" />
+    <link rel="stylesheet" media="all" href="vds/styles.css" />
+    <style>
+      .wrapper {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="test" style="">
+    <v-tile
+      tileimg="//dummyimage.com/620x295"
+      alt="Image."
+      tileTitle="Tread it daily your work"
+      tileSubtitle="Finance going forward screw the pooch race without a finish line who's responsible for the ask for this request?"
+      tileHref="//google.com"
+      buttonText="Learn More"
+    ></v-tile>
+    </div>
+
+    <script src="//code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="vds/v-polyfills.js"></script>
+    <script src="vds/v-vendor.js"></script>
+    <script src="vds/v-theme-component.js"></script>
+    <script src="vds/v-tile.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+        jQuery(".test").wrapAll('<div class="wrapper" />');
+      });
+    </script>
+  </body>
+</html>
