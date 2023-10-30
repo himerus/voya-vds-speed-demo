@@ -6,20 +6,21 @@
   <title>VDS Pagespeed Demo | Tile</title>
   <meta name="description" content="Demo of a single VDS tile on a page.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.png" type="image/png">
 
   <link rel="stylesheet" media="all" href="vds/global_styles.css" />
   <link rel="stylesheet" media="all" href="vds/styles.css" />
 </head>
 
 <body>
-
-  <h1>VDS Tile Example: Test 1</h1>
-
-  <h2>Simplified Example</h2>
+  <h1>VDS Test 1</h1>
+  <h2>Simplified Example with Image</h2>
   <p>The above example simply slimmed down the original test for v-tile, and used a non-broken, local image to reference
     to provide a more stable baseline. </p>
-  <v-tile tileimg="assets/983670.jpg.webp" alt="Image." tileTitle="Customize your retirement plan"
-    tileSubtitle="A retirement plan that works for you." tileHref="#" buttonText="Learn More"></v-tile>
+  <v-tile tileimg="assets/human.webp" alt="Image of human." tileTitle="Earthling from Earth."
+    tileSubtitle="Subject from planet Earth. Observed doing things while other stuff was happening." tileHref="#"
+    buttonText="Access Records">
+  </v-tile>
 
   <script src="vds/v-polyfills.js"></script>
   <script src="vds/v-vendor.js"></script>
